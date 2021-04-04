@@ -1,2 +1,1 @@
-# workflow
-Private playground repo dedicated to workflow.
+Personal repo to play around with semantic releases.
