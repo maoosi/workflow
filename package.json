@@ -19,14 +19,6 @@
     "lint-staged": {
         "*.{js}": "eslint"
     },
-    "release": {
-        "branches": {
-            "name": "next",
-            "channel": "next",
-            "prerelease": "alpha"
-        },
-        "tagFormat": "${version}"
-    },
     "husky": {
         "hooks": {
             "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
