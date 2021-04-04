@@ -1,6 +1,6 @@
 {
     "name": "@maoosi/workflow",
-    "version": "1.0.0-beta.1",
+    "version": "0.0.0-development",
     "main": "index.js",
     "repository": "git@github.com:maoosi/workflow.git",
     "author": "Sylvain <hello@sylvainsimao.fr>",
@@ -9,9 +9,12 @@
         "@commitlint/cli": "^12.1.1",
         "@commitlint/config-conventional": "^12.1.1",
         "eslint": "^7.23.0",
+        "eslint-config-prettier": "^8.1.0",
+        "eslint-plugin-prettier": "^3.3.1",
         "husky": "^6.0.0",
         "lint-staged": "^10.5.4",
-        "prettier": "^2.2.1"
+        "prettier": "^2.2.1",
+        "semantic-release": "^17.4.2"
     },
     "lint-staged": {
         "*.{js}": "eslint"
@@ -23,6 +26,10 @@
         }
     },
     "scripts": {
-        "prepare": "husky install"
+        "prepare": "husky install",
+        "semantic-release": "semantic-release"
+    },
+    "publishConfig": {
+        "access": "restricted"
     }
 }

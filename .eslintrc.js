@@ -4,10 +4,7 @@ module.exports = {
         browser: true,
         node: true,
     },
-    extends: [
-        'prettier',
-        'plugin:prettier/recommended',
-    ],
+    extends: ['prettier', 'plugin:prettier/recommended'],
     plugins: ['prettier'],
     // add your custom rules here
     rules: {},
